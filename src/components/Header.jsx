@@ -2,11 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      <h2>“Fajesha’s Movie App”
-
-</h2>
-    </div>
+    <header >
+      <h2>Fajesha’s Movie App
+      </h2>
+    </header>
   )
 }
 
