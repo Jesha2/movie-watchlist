@@ -1,27 +1,42 @@
 html {
-  background: #272727;
+  background: #434040;
   color: white;
 }
-
+h2 {
+  text-align: center;
+}
 header {
+
+
   display: flex;
   height: 70px;
   justify-content: start;
   gap: 15px;
   align-items: center;
   padding: 0px 80px;
-  background: #25aae1;
+  background: #cf9319;
 }
 
 button {
   height: 44px;
   font-size: 22px;
   padding: 0px 12px;
-  color: #25aae1;
+  color: #e2de0e;
   background-color: transparent;
-  border: 2px solid #25aae1;
-  border-radius: 3px;
+  border: 2px solid #e2de0e;
+  border-radius: 20px;
   min-width: 125px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+button:hover{
+  background-color: #e2de0e;
+  color:#434040;
+  
+}
+
+button:active {
+  background-color: #11ed70; /* Active state */
 }
 
 .page {
@@ -32,13 +47,14 @@ button {
 }
 
 .btn-container {
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   gap: 10px;
 }
 
 .movie-container {
+  
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -47,6 +63,7 @@ button {
 }
 
 .movie-card {
+  margin-top: 24px;
   width: 300px;
   display: flex;
   flex-direction: column;

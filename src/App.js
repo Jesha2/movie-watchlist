@@ -6,8 +6,6 @@ import MovieScreen from './components/MovieScreen';
 import WatchList from './components/WatchList'
 
 function App() {
-  
-
   const [page, setPage] = useState(1);
   const[movieList, setMovieList] = useState([]);
   const[watchList, setWatchList] = useState([]);
